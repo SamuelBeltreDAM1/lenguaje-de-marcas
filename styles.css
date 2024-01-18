@@ -1,0 +1,126 @@
+/* Estilos globales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Felpais.com%2Felpais%2F2019%2F01%2F09%2Falterconsumismo%2F1547066436_609188.html&psig=AOvVaw1C4wdQmCiwjHnu-BzvscLZ&ust=1705667447002000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKDb38T45oMDFQAAAAAdAAAAABAD);
+    color: #333;
+}
+
+/* Estilo para el encabezado del artículo */
+article header {
+    background-color: chocolate;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+p{
+    font-style: oblique;
+    font-size: large;
+}
+/* Títulos */
+h1, h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+/* Fecha del artículo */
+article header time {
+    font-style: italic;
+    color: #f4f4f4;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #fff;
+    margin:2em;
+    padding:2em;
+    border-radius: 90px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+ 
+}
+
+/* Estilos para listas */
+ul {
+    padding-left: 30px;
+}
+
+ul ul {
+    list-style-type:initial;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.7em 2em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Media queries para responsividad. Aún no hemos dado esto y solamente lo quiero mencionar. Busca su significado */
+/* aplicar estilos diferentes a un documento HTML en función de las características del 
+dispositivo en el que se visualiza la página, 
+principalmente basándose en el tamaño de la pantalla y la resolución. */
+@media (max-width: 600px) {
+    body {
+        background-color: #e3f2fd;
+    }
+
+    article header {
+        padding: 0.5em 0;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+    }
+}
