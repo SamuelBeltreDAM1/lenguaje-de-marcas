@@ -1,0 +1,59 @@
+EJERCICIOS CSS 
+1
+Plate 
+2
+Bento 
+3
+#fancy 
+4
+Plate apple 
+5
+#fancy pickle 
+6
+Apple.small 
+7
+Orange.small 
+8
+bento orange.small 
+9
+Plate,bento 
+10
+* 
+11
+Plate * 
+12
+Plate + apple 
+13
+pickle~pickle 
+14
+Plate>apple 
+15
+Orange:first-child 
+16
+Plate :only-child 
+17
+.small:last-child 
+18
+plate:nth-child(3) 
+19
+bento:nth-last-child(3) 
+20
+Apple:first-of-type 
+21
+Plate:nth-of-type(even) 
+22
+plate:nth-of-type(2n+3) 
+23
+Plate apple:only-of-type 
+24
+.small:last-of-type 
+25
+Bento:empty 
+26
+Apple:not(.small, .medium) 
+27
+[for] 
+29
+Plate [for] 
+30
+[for=”Vitaly”] 
